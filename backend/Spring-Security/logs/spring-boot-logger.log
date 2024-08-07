@@ -1,0 +1,162 @@
+2024-08-07 06:45:55,985 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.11 with PID 8868 (C:\Users\Arunkumar\Downloads\spring-security-main\spring-security-main\Spring-Security-Template-V4-main\Spring-Security\target\classes started by Arunkumar in C:\Users\Arunkumar\Downloads\spring-security-main\spring-security-main\Spring-Security-Template-V4-main\Spring-Security)
+2024-08-07 06:45:55,994 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-07 06:45:56,193 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-07 06:45:56,196 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-07 06:46:00,417 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-07 06:46:00,760 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 248 ms. Found 6 JPA repository interfaces.
+2024-08-07 06:46:03,668 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-07 06:46:03,714 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-7777"]
+2024-08-07 06:46:03,739 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-07 06:46:03,743 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-07 06:46:04,213 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-07 06:46:04,226 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 8023 ms
+2024-08-07 06:46:04,527 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-07 06:46:06,162 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@22c37c19
+2024-08-07 06:46:06,170 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-07 06:46:06,237 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/backend_realestate'
+2024-08-07 06:46:07,626 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-07 06:46:08,089 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-07 06:46:08,226 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-07 06:46:09,582 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-07 06:46:09,814 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-07 06:46:13,029 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-07 06:46:13,364 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 06:46:14,833 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-07 06:46:15,521 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-07 06:46:16,890 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-07 06:46:17,802 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-07 06:46:17,833 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-7777"]
+2024-08-07 06:46:17,911 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-07 06:46:17,943 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 22.997 seconds (process running for 23.954)
+2024-08-07 06:46:49,041 INFO o.a.j.l.DirectJDKLog [http-nio-7777-exec-1] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-07 06:46:49,042 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-1] Initializing Servlet 'dispatcherServlet'
+2024-08-07 06:46:49,057 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-1] Completed initialization in 7 ms
+2024-08-07 06:46:49,164 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing GET /swagger-ui/index.html
+2024-08-07 06:46:49,240 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:49,274 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured GET /swagger-ui/index.html
+2024-08-07 06:46:49,538 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Securing GET /swagger-ui/swagger-ui.css
+2024-08-07 06:46:49,545 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-07 06:46:49,554 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing GET /swagger-ui/index.css
+2024-08-07 06:46:49,554 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-07 06:46:49,554 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing GET /swagger-ui/swagger-initializer.js
+2024-08-07 06:46:49,564 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:49,569 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:49,570 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:49,570 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:49,582 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:49,582 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured GET /swagger-ui/index.css
+2024-08-07 06:46:49,582 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-07 06:46:49,582 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured GET /swagger-ui/swagger-initializer.js
+2024-08-07 06:46:49,589 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Secured GET /swagger-ui/swagger-ui.css
+2024-08-07 06:46:49,589 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-07 06:46:50,174 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Securing GET /v3/api-docs/swagger-config
+2024-08-07 06:46:50,174 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:50,186 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Secured GET /v3/api-docs/swagger-config
+2024-08-07 06:46:50,347 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing GET /v3/api-docs
+2024-08-07 06:46:50,347 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:46:50,347 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured GET /v3/api-docs
+2024-08-07 06:46:52,196 INFO o.s.a.AbstractOpenApiResource [http-nio-7777-exec-8] Init duration for springdoc-openapi is: 1776 ms
+2024-08-07 06:47:19,905 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing POST /agents
+2024-08-07 06:47:19,909 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:47:19,916 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-7777-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-07 06:47:19,950 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing POST /error
+2024-08-07 06:47:19,962 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:47:19,963 DEBUG o.s.s.w.a.Http403ForbiddenEntryPoint [http-nio-7777-exec-4] Pre-authenticated entry point called. Rejecting access
+2024-08-07 06:47:56,471 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing POST /api/auth/register
+2024-08-07 06:47:56,471 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:47:56,471 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured POST /api/auth/register
+2024-08-07 06:48:09,296 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Securing POST /api/auth/register
+2024-08-07 06:48:09,305 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:48:09,305 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Secured POST /api/auth/register
+2024-08-07 06:48:18,602 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing POST /api/auth/register
+2024-08-07 06:48:18,602 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:48:18,602 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured POST /api/auth/register
+2024-08-07 06:48:38,256 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Securing POST /api/auth/login
+2024-08-07 06:48:38,256 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 06:48:38,256 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Secured POST /api/auth/login
+2024-08-07 06:48:38,770 DEBUG o.s.s.a.d.AbstractUserDetailsAuthenticationProvider [http-nio-7777-exec-10] Authenticated user
+2024-08-07 06:49:38,667 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing POST /agents
+2024-08-07 06:49:38,938 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured POST /agents
+2024-08-07 09:12:10,674 INFO o.s.b.StartupInfoLogger [restartedMain] Starting QuizspringApplication using Java 17.0.11 with PID 15572 (C:\Users\Arunkumar\Downloads\spring-security-main\spring-security-main\Spring-Security-Template-V4-main\Spring-Security\target\classes started by Arunkumar in C:\Users\Arunkumar\Downloads\spring-security-main\spring-security-main\Spring-Security-Template-V4-main\Spring-Security)
+2024-08-07 09:12:10,681 INFO o.s.b.SpringApplication [restartedMain] No active profile set, falling back to 1 default profile: "default"
+2024-08-07 09:12:10,817 INFO o.s.b.l.DeferredLog [restartedMain] Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2024-08-07 09:12:10,826 INFO o.s.b.l.DeferredLog [restartedMain] For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2024-08-07 09:12:13,581 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-08-07 09:12:13,785 INFO o.s.d.r.c.RepositoryConfigurationDelegate [restartedMain] Finished Spring Data repository scanning in 166 ms. Found 6 JPA repository interfaces.
+2024-08-07 09:12:15,558 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat initialized with port 7777 (http)
+2024-08-07 09:12:15,622 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing ProtocolHandler ["http-nio-7777"]
+2024-08-07 09:12:15,626 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting service [Tomcat]
+2024-08-07 09:12:15,634 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting Servlet engine: [Apache Tomcat/10.1.26]
+2024-08-07 09:12:15,799 INFO o.a.j.l.DirectJDKLog [restartedMain] Initializing Spring embedded WebApplicationContext
+2024-08-07 09:12:15,802 INFO o.s.b.w.s.c.ServletWebServerApplicationContext [restartedMain] Root WebApplicationContext: initialization completed in 4958 ms
+2024-08-07 09:12:15,906 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Starting...
+2024-08-07 09:12:16,533 INFO c.z.h.p.HikariPool [restartedMain] HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7ca5a478
+2024-08-07 09:12:16,538 INFO c.z.h.HikariDataSource [restartedMain] HikariPool-1 - Start completed.
+2024-08-07 09:12:16,571 INFO o.s.b.a.h.H2ConsoleAutoConfiguration [restartedMain] H2 console available at '/h2-console'. Database available at 'jdbc:mysql://localhost:3306/backend_realestate'
+2024-08-07 09:12:16,986 INFO o.h.j.i.u.LogHelper [restartedMain] HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-08-07 09:12:17,229 INFO o.h.Version [restartedMain] HHH000412: Hibernate ORM core version 6.5.2.Final
+2024-08-07 09:12:17,370 INFO o.h.c.i.RegionFactoryInitiator [restartedMain] HHH000026: Second-level cache disabled
+2024-08-07 09:12:18,521 INFO o.s.o.j.p.SpringPersistenceUnitInfo [restartedMain] No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-08-07 09:12:18,661 WARN o.h.e.j.d.i.DialectFactoryImpl [restartedMain] HHH90000025: MySQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2024-08-07 09:12:20,150 INFO o.h.e.t.j.p.i.JtaPlatformInitiator [restartedMain] HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-08-07 09:12:20,323 INFO o.s.o.j.AbstractEntityManagerFactoryBean [restartedMain] Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-08-07 09:12:21,563 INFO o.s.s.c.a.a.c.InitializeUserDetailsBeanManagerConfigurer$InitializeUserDetailsManagerConfigurer [restartedMain] Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2024-08-07 09:12:22,214 WARN o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration [restartedMain] spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-08-07 09:12:23,173 DEBUG o.s.s.w.DefaultSecurityFilterChain [restartedMain] Will secure any request with filters: DisableEncodeUrlFilter, WebAsyncManagerIntegrationFilter, SecurityContextHolderFilter, HeaderWriterFilter, CorsFilter, LogoutFilter, JwtAuthenticationFilter, RequestCacheAwareFilter, SecurityContextHolderAwareRequestFilter, AnonymousAuthenticationFilter, SessionManagementFilter, ExceptionTranslationFilter, AuthorizationFilter
+2024-08-07 09:12:23,849 INFO o.s.b.d.a.OptionalLiveReloadServer [restartedMain] LiveReload server is running on port 35729
+2024-08-07 09:12:23,889 INFO o.a.j.l.DirectJDKLog [restartedMain] Starting ProtocolHandler ["http-nio-7777"]
+2024-08-07 09:12:23,938 INFO o.s.b.w.e.t.TomcatWebServer [restartedMain] Tomcat started on port 7777 (http) with context path '/'
+2024-08-07 09:12:23,963 INFO o.s.b.StartupInfoLogger [restartedMain] Started QuizspringApplication in 14.097 seconds (process running for 15.153)
+2024-08-07 09:13:19,439 INFO o.a.j.l.DirectJDKLog [http-nio-7777-exec-2] Initializing Spring DispatcherServlet 'dispatcherServlet'
+2024-08-07 09:13:19,455 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-2] Initializing Servlet 'dispatcherServlet'
+2024-08-07 09:13:19,472 INFO o.s.w.s.FrameworkServlet [http-nio-7777-exec-2] Completed initialization in 17 ms
+2024-08-07 09:13:19,530 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing GET /swagger-ui/index.html
+2024-08-07 09:13:19,548 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:19,556 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured GET /swagger-ui/index.html
+2024-08-07 09:13:19,680 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-07 09:13:19,680 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Securing GET /swagger-ui/index.css
+2024-08-07 09:13:19,680 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing GET /swagger-ui/swagger-ui.css
+2024-08-07 09:13:19,692 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-07 09:13:19,692 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:19,692 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Securing GET /swagger-ui/swagger-initializer.js
+2024-08-07 09:13:19,696 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-5] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:19,699 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-3] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:19,699 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-07 09:13:19,699 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:19,706 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:19,705 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-5] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-07 09:13:19,705 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-3] Secured GET /swagger-ui/index.css
+2024-08-07 09:13:19,707 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Secured GET /swagger-ui/swagger-initializer.js
+2024-08-07 09:13:19,731 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured GET /swagger-ui/swagger-ui.css
+2024-08-07 09:13:20,073 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Securing GET /v3/api-docs/swagger-config
+2024-08-07 09:13:20,075 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:20,080 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Secured GET /v3/api-docs/swagger-config
+2024-08-07 09:13:20,176 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing GET /v3/api-docs
+2024-08-07 09:13:20,178 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:13:20,178 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured GET /v3/api-docs
+2024-08-07 09:13:23,356 INFO o.s.a.AbstractOpenApiResource [http-nio-7777-exec-9] Init duration for springdoc-openapi is: 3147 ms
+2024-08-07 09:34:23,431 WARN c.z.h.p.HikariPool$HouseKeeper [HikariPool-1 housekeeper] HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=4m6s423ms587µs801ns).
+2024-08-07 09:53:27,840 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Securing GET /swagger-ui/index.html
+2024-08-07 09:53:27,975 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-1] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:27,980 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-1] Secured GET /swagger-ui/index.html
+2024-08-07 09:53:28,036 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Securing GET /swagger-ui/swagger-ui.css
+2024-08-07 09:53:28,038 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-4] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Securing GET /swagger-ui/index.css
+2024-08-07 09:53:28,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Securing GET /swagger-ui/swagger-ui-bundle.js
+2024-08-07 09:53:28,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-4] Secured GET /swagger-ui/swagger-ui.css
+2024-08-07 09:53:28,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Securing GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-07 09:53:28,042 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Securing GET /swagger-ui/swagger-initializer.js
+2024-08-07 09:53:28,047 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-7] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,050 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-6] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,051 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-9] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,052 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-7] Secured GET /swagger-ui/swagger-ui-bundle.js
+2024-08-07 09:53:28,052 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-6] Secured GET /swagger-ui/index.css
+2024-08-07 09:53:28,052 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-10] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,057 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-9] Secured GET /swagger-ui/swagger-ui-standalone-preset.js
+2024-08-07 09:53:28,058 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-10] Secured GET /swagger-ui/swagger-initializer.js
+2024-08-07 09:53:28,384 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Securing GET /v3/api-docs/swagger-config
+2024-08-07 09:53:28,384 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-2] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,384 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-2] Secured GET /v3/api-docs/swagger-config
+2024-08-07 09:53:28,447 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Securing GET /v3/api-docs
+2024-08-07 09:53:28,449 DEBUG o.s.s.w.a.AnonymousAuthenticationFilter [http-nio-7777-exec-8] Set SecurityContextHolder to anonymous SecurityContext
+2024-08-07 09:53:28,455 DEBUG o.s.s.w.FilterChainProxy [http-nio-7777-exec-8] Secured GET /v3/api-docs
